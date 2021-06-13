@@ -568,7 +568,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h3 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   #hero h1 {
@@ -581,6 +581,15 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  #hero span {
+    font-size: 15px;
+  }
+
+  #content-text {
+    margin-top: 50px;
+  }
+
 }
 
 @media (max-height: 500px) {
