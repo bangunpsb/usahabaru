@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #ea6981;
+  color: #1A9B47;
   text-decoration: none;
 }
 
@@ -125,13 +125,15 @@ h6 {
 
 .darkmode--activated .contact .info h4,
 .darkmode--activated .contact .info p {
+  isolation: isolate;
   color: #fff;
   transition: 0.5s;
 }
 
 .darkmode--activated .social-links {
   isolation: isolate;
-  color: #1A9B47;
+  color: #fff;
+  transition: 0.5s;
 }
 
 .darkmode--activated .contact .php-email-form button[type="submit"] {
@@ -564,9 +566,12 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+
+
 }
 
 @media (max-width: 768px) {
+
   #hero h3 {
     font-size: 17px;
   }
@@ -581,12 +586,18 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  #content-text {
+    margin-top: 20px;
+  }
 }
 
 @media (max-height: 500px) {
   #hero {
     height: 150vh;
   }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -2089,7 +2100,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ea6981;
+  color: #1A9B47;
   font-size: 18px;
   line-height: 1;
 }
